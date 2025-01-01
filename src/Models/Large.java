@@ -2,10 +2,10 @@ package Models;
 
 import Interface.ParkingSpot;
 
-public class Handicapped extends ParkingSpot {
+public class Large extends ParkingSpot {
     @Override
     public boolean getIsFree() {
-        // add your own implementation here
+        //add your implementation
         return false;
     }
 }

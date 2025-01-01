@@ -2,9 +2,10 @@ package Models;
 
 import Interface.Vehicle;
 
-public class Car extends Vehicle {
+public class Van extends Vehicle {
+
     @Override
     public void getTicket() {
-      // add your own implementation
+        //add your own implementation
     }
 }
